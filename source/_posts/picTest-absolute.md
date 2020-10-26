@@ -1,8 +1,7 @@
 ---
 title: picTest_absolute
-date: 2020-10-26 14:54:35
+date: 2020-10-26 15:47:13
 tags:
 ---
 
-![Thinking](/images/wonder.png)
-
+![Thinking](/images/wonderTest.png)
