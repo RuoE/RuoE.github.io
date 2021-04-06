@@ -114,3 +114,9 @@ baidu_url_submit:
   host: www.luoyh.top
   token: scvpj7c3M8X8bROs
   path: baidu_urls.txt
+
+# sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
