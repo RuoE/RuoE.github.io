@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
+url: https://www.luoyh.top
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -103,6 +103,14 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
+- type: git
   repo: https://github.com/RuoE/RuoE.github.io.git
   branch: master
+- type: baidu_url_submitter
+
+# Searching engine optimization
+baidu_url_submit:
+  count: 1
+  host: www.luoyh.top
+  token: scvpj7c3M8X8bROs
+  path: baidu_urls.txt
